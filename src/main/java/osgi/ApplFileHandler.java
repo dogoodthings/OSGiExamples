@@ -12,8 +12,9 @@ import com.dscsag.plm.spi.interfaces.logging.PlmLogger;
 /**
  * file handler which is called every time when files are provided in ECTR
  * session directory (but only for the files of the documents with application
- * type UGS) this handler does nothing besides just log all the files which are
- * provided or removed by ECTR into ECTR log file
+ * type UGS)
+ * this example does nothing besides just log all the files which are
+ * provided or removed by ECTR using ECTR logging capabilities
  */
 public class ApplFileHandler implements ApplicationFileHandler
 {
